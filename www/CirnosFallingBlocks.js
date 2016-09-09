@@ -1469,27 +1469,27 @@ ApplicationMain.create = function() {
 	ApplicationMain.preloader.create(ApplicationMain.config);
 	var urls = [];
 	var types = [];
-	urls.push("assets/Audio/Ogg/BGM.OGG");
+	urls.push("assets/Audio/Ogg/BGM.ogg");
 	types.push("SOUND");
-	urls.push("assets/Audio/Ogg/blip.OGG");
+	urls.push("assets/Audio/Ogg/blip.ogg");
 	types.push("SOUND");
-	urls.push("assets/Audio/Ogg/blip2.OGG");
+	urls.push("assets/Audio/Ogg/blip2.ogg");
 	types.push("SOUND");
-	urls.push("assets/Audio/Ogg/blockbreak.OGG");
+	urls.push("assets/Audio/Ogg/blockbreak.ogg");
 	types.push("SOUND");
-	urls.push("assets/Audio/Ogg/click.OGG");
+	urls.push("assets/Audio/Ogg/click.ogg");
 	types.push("SOUND");
-	urls.push("assets/Audio/Ogg/drop.OGG");
+	urls.push("assets/Audio/Ogg/drop.ogg");
 	types.push("SOUND");
-	urls.push("assets/Audio/Ogg/noiseshot.OGG");
+	urls.push("assets/Audio/Ogg/noiseshot.ogg");
 	types.push("SOUND");
-	urls.push("assets/Audio/Ogg/powerup.OGG");
+	urls.push("assets/Audio/Ogg/powerup.ogg");
 	types.push("SOUND");
-	urls.push("assets/Audio/Ogg/tap.OGG");
+	urls.push("assets/Audio/Ogg/tap.ogg");
 	types.push("SOUND");
-	urls.push("assets/Audio/Ogg/TitleScreen.OGG");
+	urls.push("assets/Audio/Ogg/TitleScreen.ogg");
 	types.push("SOUND");
-	urls.push("assets/Audio/Ogg/victory.OGG");
+	urls.push("assets/Audio/Ogg/victory.ogg");
 	types.push("SOUND");
 	urls.push("assets/openfl.svg");
 	types.push("TEXT");
@@ -1577,7 +1577,7 @@ ApplicationMain.init = function() {
 	}
 };
 ApplicationMain.main = function() {
-	ApplicationMain.config = { build : "875", company : "RSGmaker", file : "CirnosFallingBlocks", fps : 60, name : "CirnosFallingBlocks", orientation : "", packageName : "CirnosFallingBlocks", version : "1.0.0", windows : [{ antialiasing : 0, background : 0, borderless : false, depthBuffer : false, display : 0, fullscreen : false, hardware : true, height : 600, parameters : "{}", resizable : true, stencilBuffer : true, title : "CirnosFallingBlocks", vsync : false, width : 800, x : null, y : null}]};
+	ApplicationMain.config = { build : "876", company : "RSGmaker", file : "CirnosFallingBlocks", fps : 60, name : "CirnosFallingBlocks", orientation : "", packageName : "CirnosFallingBlocks", version : "1.0.0", windows : [{ antialiasing : 0, background : 0, borderless : false, depthBuffer : false, display : 0, fullscreen : false, hardware : true, height : 600, parameters : "{}", resizable : true, stencilBuffer : true, title : "CirnosFallingBlocks", vsync : false, width : 800, x : null, y : null}]};
 };
 ApplicationMain.start = function() {
 	var hasMain = false;
@@ -2964,147 +2964,147 @@ var DefaultAssetLibrary = function() {
 	this.className = new haxe_ds_StringMap();
 	lime_AssetLibrary.call(this);
 	var _this = this.path;
-	if(__map_reserved["assets/Audio/Ogg/BGM.OGG"] != null) {
-		_this.setReserved("assets/Audio/Ogg/BGM.OGG","assets/Audio/Ogg/BGM.OGG");
+	if(__map_reserved["assets/Audio/Ogg/BGM.ogg"] != null) {
+		_this.setReserved("assets/Audio/Ogg/BGM.ogg","assets/Audio/Ogg/BGM.ogg");
 	} else {
-		_this.h["assets/Audio/Ogg/BGM.OGG"] = "assets/Audio/Ogg/BGM.OGG";
+		_this.h["assets/Audio/Ogg/BGM.ogg"] = "assets/Audio/Ogg/BGM.ogg";
 	}
 	var _this1 = this.type;
 	var value = "SOUND";
-	if(__map_reserved["assets/Audio/Ogg/BGM.OGG"] != null) {
-		_this1.setReserved("assets/Audio/Ogg/BGM.OGG",value);
+	if(__map_reserved["assets/Audio/Ogg/BGM.ogg"] != null) {
+		_this1.setReserved("assets/Audio/Ogg/BGM.ogg",value);
 	} else {
-		_this1.h["assets/Audio/Ogg/BGM.OGG"] = value;
+		_this1.h["assets/Audio/Ogg/BGM.ogg"] = value;
 	}
 	var _this2 = this.path;
-	if(__map_reserved["assets/Audio/Ogg/blip.OGG"] != null) {
-		_this2.setReserved("assets/Audio/Ogg/blip.OGG","assets/Audio/Ogg/blip.OGG");
+	if(__map_reserved["assets/Audio/Ogg/blip.ogg"] != null) {
+		_this2.setReserved("assets/Audio/Ogg/blip.ogg","assets/Audio/Ogg/blip.ogg");
 	} else {
-		_this2.h["assets/Audio/Ogg/blip.OGG"] = "assets/Audio/Ogg/blip.OGG";
+		_this2.h["assets/Audio/Ogg/blip.ogg"] = "assets/Audio/Ogg/blip.ogg";
 	}
 	var _this3 = this.type;
 	var value1 = "SOUND";
-	if(__map_reserved["assets/Audio/Ogg/blip.OGG"] != null) {
-		_this3.setReserved("assets/Audio/Ogg/blip.OGG",value1);
+	if(__map_reserved["assets/Audio/Ogg/blip.ogg"] != null) {
+		_this3.setReserved("assets/Audio/Ogg/blip.ogg",value1);
 	} else {
-		_this3.h["assets/Audio/Ogg/blip.OGG"] = value1;
+		_this3.h["assets/Audio/Ogg/blip.ogg"] = value1;
 	}
 	var _this4 = this.path;
-	if(__map_reserved["assets/Audio/Ogg/blip2.OGG"] != null) {
-		_this4.setReserved("assets/Audio/Ogg/blip2.OGG","assets/Audio/Ogg/blip2.OGG");
+	if(__map_reserved["assets/Audio/Ogg/blip2.ogg"] != null) {
+		_this4.setReserved("assets/Audio/Ogg/blip2.ogg","assets/Audio/Ogg/blip2.ogg");
 	} else {
-		_this4.h["assets/Audio/Ogg/blip2.OGG"] = "assets/Audio/Ogg/blip2.OGG";
+		_this4.h["assets/Audio/Ogg/blip2.ogg"] = "assets/Audio/Ogg/blip2.ogg";
 	}
 	var _this5 = this.type;
 	var value2 = "SOUND";
-	if(__map_reserved["assets/Audio/Ogg/blip2.OGG"] != null) {
-		_this5.setReserved("assets/Audio/Ogg/blip2.OGG",value2);
+	if(__map_reserved["assets/Audio/Ogg/blip2.ogg"] != null) {
+		_this5.setReserved("assets/Audio/Ogg/blip2.ogg",value2);
 	} else {
-		_this5.h["assets/Audio/Ogg/blip2.OGG"] = value2;
+		_this5.h["assets/Audio/Ogg/blip2.ogg"] = value2;
 	}
 	var _this6 = this.path;
-	if(__map_reserved["assets/Audio/Ogg/blockbreak.OGG"] != null) {
-		_this6.setReserved("assets/Audio/Ogg/blockbreak.OGG","assets/Audio/Ogg/blockbreak.OGG");
+	if(__map_reserved["assets/Audio/Ogg/blockbreak.ogg"] != null) {
+		_this6.setReserved("assets/Audio/Ogg/blockbreak.ogg","assets/Audio/Ogg/blockbreak.ogg");
 	} else {
-		_this6.h["assets/Audio/Ogg/blockbreak.OGG"] = "assets/Audio/Ogg/blockbreak.OGG";
+		_this6.h["assets/Audio/Ogg/blockbreak.ogg"] = "assets/Audio/Ogg/blockbreak.ogg";
 	}
 	var _this7 = this.type;
 	var value3 = "SOUND";
-	if(__map_reserved["assets/Audio/Ogg/blockbreak.OGG"] != null) {
-		_this7.setReserved("assets/Audio/Ogg/blockbreak.OGG",value3);
+	if(__map_reserved["assets/Audio/Ogg/blockbreak.ogg"] != null) {
+		_this7.setReserved("assets/Audio/Ogg/blockbreak.ogg",value3);
 	} else {
-		_this7.h["assets/Audio/Ogg/blockbreak.OGG"] = value3;
+		_this7.h["assets/Audio/Ogg/blockbreak.ogg"] = value3;
 	}
 	var _this8 = this.path;
-	if(__map_reserved["assets/Audio/Ogg/click.OGG"] != null) {
-		_this8.setReserved("assets/Audio/Ogg/click.OGG","assets/Audio/Ogg/click.OGG");
+	if(__map_reserved["assets/Audio/Ogg/click.ogg"] != null) {
+		_this8.setReserved("assets/Audio/Ogg/click.ogg","assets/Audio/Ogg/click.ogg");
 	} else {
-		_this8.h["assets/Audio/Ogg/click.OGG"] = "assets/Audio/Ogg/click.OGG";
+		_this8.h["assets/Audio/Ogg/click.ogg"] = "assets/Audio/Ogg/click.ogg";
 	}
 	var _this9 = this.type;
 	var value4 = "SOUND";
-	if(__map_reserved["assets/Audio/Ogg/click.OGG"] != null) {
-		_this9.setReserved("assets/Audio/Ogg/click.OGG",value4);
+	if(__map_reserved["assets/Audio/Ogg/click.ogg"] != null) {
+		_this9.setReserved("assets/Audio/Ogg/click.ogg",value4);
 	} else {
-		_this9.h["assets/Audio/Ogg/click.OGG"] = value4;
+		_this9.h["assets/Audio/Ogg/click.ogg"] = value4;
 	}
 	var _this10 = this.path;
-	if(__map_reserved["assets/Audio/Ogg/drop.OGG"] != null) {
-		_this10.setReserved("assets/Audio/Ogg/drop.OGG","assets/Audio/Ogg/drop.OGG");
+	if(__map_reserved["assets/Audio/Ogg/drop.ogg"] != null) {
+		_this10.setReserved("assets/Audio/Ogg/drop.ogg","assets/Audio/Ogg/drop.ogg");
 	} else {
-		_this10.h["assets/Audio/Ogg/drop.OGG"] = "assets/Audio/Ogg/drop.OGG";
+		_this10.h["assets/Audio/Ogg/drop.ogg"] = "assets/Audio/Ogg/drop.ogg";
 	}
 	var _this11 = this.type;
 	var value5 = "SOUND";
-	if(__map_reserved["assets/Audio/Ogg/drop.OGG"] != null) {
-		_this11.setReserved("assets/Audio/Ogg/drop.OGG",value5);
+	if(__map_reserved["assets/Audio/Ogg/drop.ogg"] != null) {
+		_this11.setReserved("assets/Audio/Ogg/drop.ogg",value5);
 	} else {
-		_this11.h["assets/Audio/Ogg/drop.OGG"] = value5;
+		_this11.h["assets/Audio/Ogg/drop.ogg"] = value5;
 	}
 	var _this12 = this.path;
-	if(__map_reserved["assets/Audio/Ogg/noiseshot.OGG"] != null) {
-		_this12.setReserved("assets/Audio/Ogg/noiseshot.OGG","assets/Audio/Ogg/noiseshot.OGG");
+	if(__map_reserved["assets/Audio/Ogg/noiseshot.ogg"] != null) {
+		_this12.setReserved("assets/Audio/Ogg/noiseshot.ogg","assets/Audio/Ogg/noiseshot.ogg");
 	} else {
-		_this12.h["assets/Audio/Ogg/noiseshot.OGG"] = "assets/Audio/Ogg/noiseshot.OGG";
+		_this12.h["assets/Audio/Ogg/noiseshot.ogg"] = "assets/Audio/Ogg/noiseshot.ogg";
 	}
 	var _this13 = this.type;
 	var value6 = "SOUND";
-	if(__map_reserved["assets/Audio/Ogg/noiseshot.OGG"] != null) {
-		_this13.setReserved("assets/Audio/Ogg/noiseshot.OGG",value6);
+	if(__map_reserved["assets/Audio/Ogg/noiseshot.ogg"] != null) {
+		_this13.setReserved("assets/Audio/Ogg/noiseshot.ogg",value6);
 	} else {
-		_this13.h["assets/Audio/Ogg/noiseshot.OGG"] = value6;
+		_this13.h["assets/Audio/Ogg/noiseshot.ogg"] = value6;
 	}
 	var _this14 = this.path;
-	if(__map_reserved["assets/Audio/Ogg/powerup.OGG"] != null) {
-		_this14.setReserved("assets/Audio/Ogg/powerup.OGG","assets/Audio/Ogg/powerup.OGG");
+	if(__map_reserved["assets/Audio/Ogg/powerup.ogg"] != null) {
+		_this14.setReserved("assets/Audio/Ogg/powerup.ogg","assets/Audio/Ogg/powerup.ogg");
 	} else {
-		_this14.h["assets/Audio/Ogg/powerup.OGG"] = "assets/Audio/Ogg/powerup.OGG";
+		_this14.h["assets/Audio/Ogg/powerup.ogg"] = "assets/Audio/Ogg/powerup.ogg";
 	}
 	var _this15 = this.type;
 	var value7 = "SOUND";
-	if(__map_reserved["assets/Audio/Ogg/powerup.OGG"] != null) {
-		_this15.setReserved("assets/Audio/Ogg/powerup.OGG",value7);
+	if(__map_reserved["assets/Audio/Ogg/powerup.ogg"] != null) {
+		_this15.setReserved("assets/Audio/Ogg/powerup.ogg",value7);
 	} else {
-		_this15.h["assets/Audio/Ogg/powerup.OGG"] = value7;
+		_this15.h["assets/Audio/Ogg/powerup.ogg"] = value7;
 	}
 	var _this16 = this.path;
-	if(__map_reserved["assets/Audio/Ogg/tap.OGG"] != null) {
-		_this16.setReserved("assets/Audio/Ogg/tap.OGG","assets/Audio/Ogg/tap.OGG");
+	if(__map_reserved["assets/Audio/Ogg/tap.ogg"] != null) {
+		_this16.setReserved("assets/Audio/Ogg/tap.ogg","assets/Audio/Ogg/tap.ogg");
 	} else {
-		_this16.h["assets/Audio/Ogg/tap.OGG"] = "assets/Audio/Ogg/tap.OGG";
+		_this16.h["assets/Audio/Ogg/tap.ogg"] = "assets/Audio/Ogg/tap.ogg";
 	}
 	var _this17 = this.type;
 	var value8 = "SOUND";
-	if(__map_reserved["assets/Audio/Ogg/tap.OGG"] != null) {
-		_this17.setReserved("assets/Audio/Ogg/tap.OGG",value8);
+	if(__map_reserved["assets/Audio/Ogg/tap.ogg"] != null) {
+		_this17.setReserved("assets/Audio/Ogg/tap.ogg",value8);
 	} else {
-		_this17.h["assets/Audio/Ogg/tap.OGG"] = value8;
+		_this17.h["assets/Audio/Ogg/tap.ogg"] = value8;
 	}
 	var _this18 = this.path;
-	if(__map_reserved["assets/Audio/Ogg/TitleScreen.OGG"] != null) {
-		_this18.setReserved("assets/Audio/Ogg/TitleScreen.OGG","assets/Audio/Ogg/TitleScreen.OGG");
+	if(__map_reserved["assets/Audio/Ogg/TitleScreen.ogg"] != null) {
+		_this18.setReserved("assets/Audio/Ogg/TitleScreen.ogg","assets/Audio/Ogg/TitleScreen.ogg");
 	} else {
-		_this18.h["assets/Audio/Ogg/TitleScreen.OGG"] = "assets/Audio/Ogg/TitleScreen.OGG";
+		_this18.h["assets/Audio/Ogg/TitleScreen.ogg"] = "assets/Audio/Ogg/TitleScreen.ogg";
 	}
 	var _this19 = this.type;
 	var value9 = "SOUND";
-	if(__map_reserved["assets/Audio/Ogg/TitleScreen.OGG"] != null) {
-		_this19.setReserved("assets/Audio/Ogg/TitleScreen.OGG",value9);
+	if(__map_reserved["assets/Audio/Ogg/TitleScreen.ogg"] != null) {
+		_this19.setReserved("assets/Audio/Ogg/TitleScreen.ogg",value9);
 	} else {
-		_this19.h["assets/Audio/Ogg/TitleScreen.OGG"] = value9;
+		_this19.h["assets/Audio/Ogg/TitleScreen.ogg"] = value9;
 	}
 	var _this20 = this.path;
-	if(__map_reserved["assets/Audio/Ogg/victory.OGG"] != null) {
-		_this20.setReserved("assets/Audio/Ogg/victory.OGG","assets/Audio/Ogg/victory.OGG");
+	if(__map_reserved["assets/Audio/Ogg/victory.ogg"] != null) {
+		_this20.setReserved("assets/Audio/Ogg/victory.ogg","assets/Audio/Ogg/victory.ogg");
 	} else {
-		_this20.h["assets/Audio/Ogg/victory.OGG"] = "assets/Audio/Ogg/victory.OGG";
+		_this20.h["assets/Audio/Ogg/victory.ogg"] = "assets/Audio/Ogg/victory.ogg";
 	}
 	var _this21 = this.type;
 	var value10 = "SOUND";
-	if(__map_reserved["assets/Audio/Ogg/victory.OGG"] != null) {
-		_this21.setReserved("assets/Audio/Ogg/victory.OGG",value10);
+	if(__map_reserved["assets/Audio/Ogg/victory.ogg"] != null) {
+		_this21.setReserved("assets/Audio/Ogg/victory.ogg",value10);
 	} else {
-		_this21.h["assets/Audio/Ogg/victory.OGG"] = value10;
+		_this21.h["assets/Audio/Ogg/victory.ogg"] = value10;
 	}
 	var _this22 = this.path;
 	if(__map_reserved["assets/openfl.svg"] != null) {
@@ -6204,7 +6204,7 @@ SoundManager.prototype = {
 			var _this1 = this.Dictionary;
 			return __map_reserved[path] != null?_this1.getReserved(path):_this1.h[path];
 		} else {
-			var S = openfl_Assets.getSound("assets/Audio/Ogg/" + path + ".OGG");
+			var S = openfl_Assets.getSound("assets/Audio/Ogg/" + path + ".ogg");
 			var _this2 = this.Dictionary;
 			if(__map_reserved[path] != null) {
 				_this2.setReserved(path,S);
@@ -8764,7 +8764,7 @@ var lime_AssetCache = function() {
 	this.audio = new haxe_ds_StringMap();
 	this.font = new haxe_ds_StringMap();
 	this.image = new haxe_ds_StringMap();
-	this.version = 825370;
+	this.version = 408002;
 };
 $hxClasses["lime.AssetCache"] = lime_AssetCache;
 lime_AssetCache.__name__ = ["lime","AssetCache"];
